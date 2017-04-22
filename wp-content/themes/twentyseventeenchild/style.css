@@ -1,0 +1,53 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: http://http://wordpresstreehouse.com//
+Description: Child theme for the Twenty Seventeen theme
+Author: Zac Gordon
+Author URI: http://wp.zacgordon.com/
+Template: twentyseventeen
+Version: 1.0
+*/
+
+@import "../twentyseventeen/style.css";
+
+.entry-header {
+	margin-left: 40px;
+	clear: both;
+}
+
+.edit-link a {
+	margin-left: 40px;
+	color: red;
+	margin: 10px 40px 30px 40px;
+	display: none;
+}
+
+.site-content {
+	margin-left: 40px;
+}
+
+.entry-content {
+	clear: both;
+	float: left;
+	color: blue;
+	margin-left: 40px;
+}
+
+.post-edit-link {
+	clear: both;
+	float: left;
+	color: red;
+}
+
+.entry-content p {
+	clear: both;
+	float: left;
+	display: table;
+}
+
+.entry-content img {
+	clear: both;
+	display: block;
+	border: 2px solid green;
+}
+
